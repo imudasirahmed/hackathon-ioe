@@ -13,6 +13,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var collectionView:UICollectionView!
     var pokemon = [Pokemon]()
     
+    @IBAction func backTapped(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self

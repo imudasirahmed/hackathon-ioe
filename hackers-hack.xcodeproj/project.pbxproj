@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F78C5A591BF902CE00CC6BE0 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = F78C5A541BF902CE00CC6BE0 /* bite.wav */; };
+		F78C5A5A1BF902CE00CC6BE0 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F78C5A551BF902CE00CC6BE0 /* cave-music.mp3 */; };
+		F78C5A5B1BF902CE00CC6BE0 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = F78C5A561BF902CE00CC6BE0 /* death.wav */; };
+		F78C5A5C1BF902CE00CC6BE0 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = F78C5A571BF902CE00CC6BE0 /* heart.wav */; };
+		F78C5A5D1BF902CE00CC6BE0 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = F78C5A581BF902CE00CC6BE0 /* skull.wav */; };
+		F78C5A5F1BF9030100CC6BE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5A5E1BF9030100CC6BE0 /* GameViewController.swift */; };
+		F78C5A621BF9033800CC6BE0 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5A601BF9033800CC6BE0 /* DragImage.swift */; };
+		F78C5A631BF9033800CC6BE0 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5A611BF9033800CC6BE0 /* MonsterImg.swift */; };
 		F7D019431BF89C6B007C41F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D019421BF89C6B007C41F6 /* AppDelegate.swift */; };
 		F7D019451BF89C6B007C41F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D019441BF89C6B007C41F6 /* ViewController.swift */; };
 		F7D019481BF89C6B007C41F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D019461BF89C6B007C41F6 /* Main.storyboard */; };
@@ -18,9 +26,18 @@
 		F7D0195F1BF8A7F6007C41F6 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0195E1BF8A7F6007C41F6 /* PokeCell.swift */; };
 		F7D019611BF8B1F2007C41F6 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D019601BF8B1F2007C41F6 /* csv.swift */; };
 		F7D019631BF8B531007C41F6 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D019621BF8B531007C41F6 /* PokemonDetailVC.swift */; };
+		F7D019671BF8F2E9007C41F6 /* StepsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D019661BF8F2E9007C41F6 /* StepsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F78C5A541BF902CE00CC6BE0 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		F78C5A551BF902CE00CC6BE0 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		F78C5A561BF902CE00CC6BE0 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		F78C5A571BF902CE00CC6BE0 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		F78C5A581BF902CE00CC6BE0 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		F78C5A5E1BF9030100CC6BE0 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F78C5A601BF9033800CC6BE0 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		F78C5A611BF9033800CC6BE0 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		F7D0193F1BF89C6B007C41F6 /* hackers-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackers-hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D019421BF89C6B007C41F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D019441BF89C6B007C41F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +51,7 @@
 		F7D0195E1BF8A7F6007C41F6 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		F7D019601BF8B1F2007C41F6 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		F7D019621BF8B531007C41F6 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		F7D019661BF8F2E9007C41F6 /* StepsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,11 @@
 		F7D019411BF89C6B007C41F6 /* hackers-hack */ = {
 			isa = PBXGroup;
 			children = (
+				F78C5A541BF902CE00CC6BE0 /* bite.wav */,
+				F78C5A551BF902CE00CC6BE0 /* cave-music.mp3 */,
+				F78C5A561BF902CE00CC6BE0 /* death.wav */,
+				F78C5A571BF902CE00CC6BE0 /* heart.wav */,
+				F78C5A581BF902CE00CC6BE0 /* skull.wav */,
 				F7D0195B1BF8A062007C41F6 /* ViewController */,
 				F7D0195A1BF8A05E007C41F6 /* View */,
 				F7D019591BF8A058007C41F6 /* Model */,
@@ -91,8 +114,11 @@
 		F7D0195A1BF8A05E007C41F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F78C5A601BF9033800CC6BE0 /* DragImage.swift */,
+				F78C5A611BF9033800CC6BE0 /* MonsterImg.swift */,
 				F7D019461BF89C6B007C41F6 /* Main.storyboard */,
 				F7D0195E1BF8A7F6007C41F6 /* PokeCell.swift */,
+				F7D019661BF8F2E9007C41F6 /* StepsCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -102,6 +128,7 @@
 			children = (
 				F7D019441BF89C6B007C41F6 /* ViewController.swift */,
 				F7D019621BF8B531007C41F6 /* PokemonDetailVC.swift */,
+				F78C5A5E1BF9030100CC6BE0 /* GameViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -164,10 +191,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C5A591BF902CE00CC6BE0 /* bite.wav in Resources */,
+				F78C5A5D1BF902CE00CC6BE0 /* skull.wav in Resources */,
+				F78C5A5C1BF902CE00CC6BE0 /* heart.wav in Resources */,
 				F7D019501BF89C6B007C41F6 /* LaunchScreen.storyboard in Resources */,
 				F7D0194D1BF89C6B007C41F6 /* Assets.xcassets in Resources */,
 				F7D019581BF89F8D007C41F6 /* pokemon.csv in Resources */,
 				F7D019481BF89C6B007C41F6 /* Main.storyboard in Resources */,
+				F78C5A5B1BF902CE00CC6BE0 /* death.wav in Resources */,
+				F78C5A5A1BF902CE00CC6BE0 /* cave-music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,11 +211,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D019611BF8B1F2007C41F6 /* csv.swift in Sources */,
+				F78C5A621BF9033800CC6BE0 /* DragImage.swift in Sources */,
+				F7D019671BF8F2E9007C41F6 /* StepsCell.swift in Sources */,
 				F7D019451BF89C6B007C41F6 /* ViewController.swift in Sources */,
 				F7D0195D1BF8A081007C41F6 /* Pokemon.swift in Sources */,
+				F78C5A5F1BF9030100CC6BE0 /* GameViewController.swift in Sources */,
 				F7D0194B1BF89C6B007C41F6 /* hackers_hack.xcdatamodeld in Sources */,
 				F7D019631BF8B531007C41F6 /* PokemonDetailVC.swift in Sources */,
 				F7D019431BF89C6B007C41F6 /* AppDelegate.swift in Sources */,
+				F78C5A631BF9033800CC6BE0 /* MonsterImg.swift in Sources */,
 				F7D0195F1BF8A7F6007C41F6 /* PokeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +370,7 @@
 				F7D019561BF89C6B007C41F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
