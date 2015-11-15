@@ -13,6 +13,7 @@
 		F7D0194B1BF89C6B007C41F6 /* hackers_hack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7D019491BF89C6B007C41F6 /* hackers_hack.xcdatamodeld */; };
 		F7D0194D1BF89C6B007C41F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D0194C1BF89C6B007C41F6 /* Assets.xcassets */; };
 		F7D019501BF89C6B007C41F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D0194E1BF89C6B007C41F6 /* LaunchScreen.storyboard */; };
+		F7D019581BF89F8D007C41F6 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = F7D019571BF89F8D007C41F6 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F7D0194C1BF89C6B007C41F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D0194F1BF89C6B007C41F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7D019511BF89C6B007C41F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D019571BF89F8D007C41F6 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F7D019411BF89C6B007C41F6 /* hackers-hack */ = {
 			isa = PBXGroup;
 			children = (
+				F7D019571BF89F8D007C41F6 /* pokemon.csv */,
 				F7D019421BF89C6B007C41F6 /* AppDelegate.swift */,
 				F7D019441BF89C6B007C41F6 /* ViewController.swift */,
 				F7D019461BF89C6B007C41F6 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				F7D019501BF89C6B007C41F6 /* LaunchScreen.storyboard in Resources */,
 				F7D0194D1BF89C6B007C41F6 /* Assets.xcassets in Resources */,
+				F7D019581BF89F8D007C41F6 /* pokemon.csv in Resources */,
 				F7D019481BF89C6B007C41F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
