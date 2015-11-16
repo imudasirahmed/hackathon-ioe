@@ -54,7 +54,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let poke = pokemon[indexPath.row]
         print(poke.name)
-        performSegueWithIdentifier("PokemonDetailVC", sender: poke)
+        performSegueWithIdentifier("activityVC", sender: poke)
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -67,14 +67,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "PokemonDetailVC" {
-            if let detailVC = segue.destinationViewController as? PokemonDetailVC, let senderPoke = sender as? Pokemon {
-                detailVC.poke = senderPoke
-            }
-        }
     }
 }
 
